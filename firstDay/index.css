@@ -4,10 +4,10 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 nav > ul{
     width:80%;
 align-items: last baseline;
-
+font-size: large;
 }
