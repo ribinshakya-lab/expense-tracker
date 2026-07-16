@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<boddy>
+    <nav>
+        <div>Expense Tracker</div>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+        </ul>
+    </nav>
+   <center> <h2>Sushan Shakya</h2></center>
+   <br><hr>
+    <form action="submit">
+        <label for="amount">Amount</label>
+    <input type="number" id="amount">
+    <label for="catagory">Catagory</label>
+    <select name="catagory" id="catagory">
+        <option value="food">Food</option>
+        <option value="education">Education</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="shopping">Shopping</option>
+       
+
+    </select>
+ <label for="description">Description</label>
+        <input type="text" id="description">
+        <button type="submit">SUBMIT</button>
+    <br>
+    <hr>
+    </form>
+    <table border="4px solid">
+        <thead>
+        <tr>
+            <th>Category</th>
+            <th>Amount</th>
+            <th>Descriptipn</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>shopping</td>
+            <td>5000</td>
+            <td>bought a jeans, qulity is nice so felt worthed</td>
+            <td> <button>Picture</button></td>
+        </tr>    
+        <tr>
+            <td>Food</td>
+            <td></td>
+            <td></td>
+        <td>  </td>
+        </tr>
+        </tbody>
+        
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

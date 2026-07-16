@@ -1,0 +1,12 @@
+nav{
+    background-color: aqua;
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > ul{
+    width:80%;
+align-items: last baseline;
+
+}
